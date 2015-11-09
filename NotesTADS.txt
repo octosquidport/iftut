@@ -1,0 +1,13 @@
+<Fuses> and <Daemons> are stored in [eventManager] object which is an object of type <Schedulable>
+
+The class <Schedulable> has a static list variable referred to as [Schedulables.allSchedulables] that contains all the objects that the scheduler cycles through each time it runs.
+
+
+
+nextRunTime = Schedulable.gameClockTime + interval - 1;
+
+
+Fuses and Daemons have an interesting quirk in their syntax
+Their constructors are
+
+The & symbol is used to be 
