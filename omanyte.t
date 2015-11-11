@@ -7,10 +7,10 @@ gameMain: GameMainDef
 
 versionInfo: GameID
 	name = 'My First Game'
-	byline = 'by Delun'
-	authorEmail = 'Delun <its_a_trap@notpron.com>'
-	desc = 'This is an example of how to start a new game project. '
-	version = '1'
+	byline = 'by Octosquidport'
+	authorEmail = 'Octosquidport <its_a_trap@notgmail.com>'
+	desc = 'An interactive fiction tutorial game. '
+	version = '0.0.1'
 	IFID = 'b8563851-6257-77c3-04ee-278ceaeb48ac'
 ;
 
@@ -51,6 +51,6 @@ dungeon: Room
 orangeButton: Button, Food
 	name = 'orange button'
 	vocabWords = 'orange round button'
-	desc = "It's a ";
+	desc = "It's an orange colored button."
 	location = library
 ;
